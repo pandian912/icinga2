@@ -22,6 +22,8 @@ located in the sysconfig, `/etc/sysconfig/icinga2` (RPM) or `/etc/default/icinga
  RLimitProcesses | ICINGA2\_RLIMIT\_PROCESSES
  RLimitStack     | ICINGA2\_RLIMIT\_STACK
 
+Also the CORS attributes `access_control_allow_credentials`, `access_control_allow_headers` and
+`access_control_allow_methods` are now controlled by Icinga 2 and are not changeable by config any more.
 
 ## Upgrading to v2.8 <a id="upgrading-to-2-8"></a>
 
